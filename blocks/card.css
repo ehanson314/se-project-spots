@@ -31,7 +31,11 @@
   height: 20px;
   border: none;
   background-color: transparent;
+}
+
+.card__like-btn:hover {
   opacity: 40%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
