@@ -19,3 +19,5 @@ images posted by users. Finally, the footer contains the year, a copyright symbo
 This webpage is deployed to GitHub Pages:
 
 [- Deployment Link ](https://ehanson314.github.io/se-project-spots/)
+
+[Link to Project Video] (https://drive.google.com/file/d/1SQ-wgdVa_ec1wUVHZq3U976Nwndt4I5T/view?usp=drive_link)
