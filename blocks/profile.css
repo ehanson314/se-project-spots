@@ -10,6 +10,7 @@
   margin-right: 20px;
   height: 190px;
   width: 190px;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -47,13 +48,14 @@
 }
 
 .profile__edit-btn {
-  background-color: #fcf5e5;
-
+  background-color: transparent;
+  display: flex;
   margin-top: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
   border: none;
+  gap: 8px;
 }
 
 .profile__edit-img {
@@ -69,12 +71,18 @@
   width: 149px;
   background-color: #212121;
   color: #fcf5e5;
-  margin: 138px 0 20px auto;
+  margin-top: auto;
+  margin-left: auto;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
 }
 
 .profile__add-img {
   height: 12px;
   width: 12px;
+  padding-right: 8px;
 }
 
 @media screen and (max-width: 627px) {
