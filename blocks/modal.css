@@ -1,3 +1,7 @@
+/* TODO - finish styling preview modal
+    TODO - make preview modal responsive
+    */
+
 .modal {
   position: fixed;
   top: 0;
@@ -22,7 +26,12 @@
   visibility: visible;
 }
 
-.modal__container {
+.modal__image {
+  border-style: none;
+  width: 100%;
+}
+
+.modal__content {
   background-color: #fff;
   padding: 32px 50px;
   max-width: 730px;
@@ -30,6 +39,15 @@
   box-sizing: border-box;
   width: 100%;
   border-radius: 8px;
+}
+
+.modal__content_type_preview {
+  padding: 0;
+}
+
+.modal__image {
+  width: 100%;
+  object-fit: contain;
 }
 
 .modal__close-btn {
@@ -43,6 +61,12 @@
   opacity: 0.4;
   border: none;
   background-color: transparent;
+}
+
+.modal__close_type_preview {
+  background-image: url(../images/close-preview.svg);
+  top: 0;
+  right: -32.5px;
 }
 
 .modal__close-btn:hover {

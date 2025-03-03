@@ -2,8 +2,9 @@
   height: 413px;
   width: 100%;
   object-fit: cover;
-  display: block;
+  display: flex;
   border-radius: 8px;
+  /* position: relative; */
 }
 
 .card__content {
@@ -25,6 +26,15 @@
   max-width: 353px;
 }
 
+.card_delete-btn {
+  background-image: url(../images/delete.svg);
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  justify-content: right;
+}
+
 .card__like-btn {
   background-image: url(../images/like-icon3.svg);
   width: 23px;
@@ -37,6 +47,15 @@
 .card__like-btn:hover {
   cursor: pointer;
   opacity: 100%;
+}
+
+.card__like-btn_liked {
+  background-image: url(../images/liked.svg);
+  opacity: 100%;
+}
+
+.card__like-btn_liked:hover {
+  background-image: url(../images/liked-hover.svg);
 }
 
 @media screen and (max-width: 627px) {
