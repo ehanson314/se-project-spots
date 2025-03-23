@@ -67,9 +67,9 @@
 }
 
 .card__like-btn_liked {
-  background-image: url(../images/liked.svg);
+  background: #fcf5e5 url(../images/liked.svg) no-repeat center;
+  background-size: contain;
   opacity: 100%;
-  background-color: transparent;
 }
 
 .card__like-btn_liked:hover {
