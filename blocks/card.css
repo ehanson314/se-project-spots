@@ -1,3 +1,7 @@
+.card {
+  position: relative;
+}
+
 .card__image {
   height: 413px;
   width: 100%;
@@ -26,13 +30,25 @@
   max-width: 353px;
 }
 
-.card_delete-btn {
-  background-image: url(../images/delete.svg);
-  width: 32px;
-  height: 32px;
+.card__delete-btn {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  background: transparent;
   border: none;
-  background-color: transparent;
-  justify-content: right;
+  padding: 0;
+  cursor: pointer;
+}
+
+.card__delete-icon {
+  width: 18px;
+  height: 18px;
+  transition: opacity 0.3s ease;
+}
+
+/* Add hover effect */
+.card__delete-btn:hover .card__delete-icon {
+  opacity: 0.6;
 }
 
 .card__like-btn {
@@ -42,6 +58,7 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  background-repeat: no-repeat;
 }
 
 .card__like-btn:hover {
@@ -52,6 +69,7 @@
 .card__like-btn_liked {
   background-image: url(../images/liked.svg);
   opacity: 100%;
+  background-color: transparent;
 }
 
 .card__like-btn_liked:hover {
